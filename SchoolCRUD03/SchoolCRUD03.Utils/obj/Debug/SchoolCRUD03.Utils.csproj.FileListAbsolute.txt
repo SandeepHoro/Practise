@@ -1,0 +1,14 @@
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03.Utils\bin\Debug\SchoolCRUD03.Utils.dll.config
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03.Utils\bin\Debug\SchoolCRUD03.Utils.dll
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03.Utils\bin\Debug\SchoolCRUD03.Utils.pdb
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03.Utils\obj\Debug\SchoolCRUD03.Utils.csproj.AssemblyReference.cache
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03.Utils\obj\Debug\SchoolCRUD03.Utils.csproj.CoreCompileInputs.cache
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03.Utils\obj\Debug\SchoolCRUD03.Utils.dll
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03.Utils\obj\Debug\SchoolCRUD03.Utils.pdb
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03.Utils\bin\Debug\SchoolCRUD03.Utils.dll.config
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03.Utils\bin\Debug\SchoolCRUD03.Utils.dll
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03.Utils\bin\Debug\SchoolCRUD03.Utils.pdb
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03.Utils\obj\Debug\SchoolCRUD03.Utils.csproj.AssemblyReference.cache
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03.Utils\obj\Debug\SchoolCRUD03.Utils.csproj.CoreCompileInputs.cache
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03.Utils\obj\Debug\SchoolCRUD03.Utils.dll
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03.Utils\obj\Debug\SchoolCRUD03.Utils.pdb

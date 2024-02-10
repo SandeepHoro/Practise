@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="SchoolModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Class">
+          <Key>
+            <PropertyRef Name="ClassNo" />
+          </Key>
+          <Property Name="ClassNo" Type="int" Nullable="false" />
+          <Property Name="ClassTeacher" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="ClassSubject">
+          <Key>
+            <PropertyRef Name="ClassNo" />
+            <PropertyRef Name="SubjectId" />
+          </Key>
+          <Property Name="ClassNo" Type="int" Nullable="false" />
+          <Property Name="SubjectId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ErrorLog">
+          <Key>
+            <PropertyRef Name="ErrorDate" />
+          </Key>
+          <Property Name="ErrorDate" Type="datetime" Nullable="false" />
+          <Property Name="ErrorMessage" Type="nchar" MaxLength="255" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Student">
+          <Key>
+            <PropertyRef Name="StudentId" />
+          </Key>
+          <Property Name="StudentId" Type="int" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="PhoneNo" Type="varchar" MaxLength="10" Nullable="false" />
+          <Property Name="ClassNo" Type="int" Nullable="false" />
+          <Property Name="AdmissionYear" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Subject">
+          <Key>
+            <PropertyRef Name="SubjectId" />
+          </Key>
+          <Property Name="SubjectId" Type="int" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Book" Type="varchar" MaxLength="50" />
+          <Property Name="SubjectTeacher" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <Association Name="FK__ClassSubj__class__60A75C0F">
+          <End Role="Class" Type="Self.Class" Multiplicity="1" />
+          <End Role="ClassSubject" Type="Self.ClassSubject" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Class">
+              <PropertyRef Name="ClassNo" />
+            </Principal>
+            <Dependent Role="ClassSubject">
+              <PropertyRef Name="ClassNo" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__ClassSubj__subje__619B8048">
+          <End Role="Subject" Type="Self.Subject" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="ClassSubject" Type="Self.ClassSubject" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Subject">
+              <PropertyRef Name="SubjectId" />
+            </Principal>
+            <Dependent Role="ClassSubject">
+              <PropertyRef Name="SubjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Student__classNo__3A81B327">
+          <End Role="Class" Type="Self.Class" Multiplicity="1" />
+          <End Role="Student" Type="Self.Student" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Class">
+              <PropertyRef Name="ClassNo" />
+            </Principal>
+            <Dependent Role="Student">
+              <PropertyRef Name="ClassNo" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="SchoolModelStoreContainer">
+          <EntitySet Name="Class" EntityType="Self.Class" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ClassSubject" EntityType="Self.ClassSubject" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ErrorLog" EntityType="Self.ErrorLog" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Student" EntityType="Self.Student" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Subject" EntityType="Self.Subject" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__ClassSubj__class__60A75C0F" Association="Self.FK__ClassSubj__class__60A75C0F">
+            <End Role="Class" EntitySet="Class" />
+            <End Role="ClassSubject" EntitySet="ClassSubject" />
+          </AssociationSet>
+          <AssociationSet Name="FK__ClassSubj__subje__619B8048" Association="Self.FK__ClassSubj__subje__619B8048">
+            <End Role="Subject" EntitySet="Subject" />
+            <End Role="ClassSubject" EntitySet="ClassSubject" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Student__classNo__3A81B327" Association="Self.FK__Student__classNo__3A81B327">
+            <End Role="Class" EntitySet="Class" />
+            <End Role="Student" EntitySet="Student" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="SchoolModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="SchoolEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Classes" EntityType="SchoolModel.Class" />
+          <EntitySet Name="Students" EntityType="SchoolModel.Student" />
+          <EntitySet Name="Subjects" EntityType="SchoolModel.Subject" />
+          <AssociationSet Name="FK__Student__classNo__3A81B327" Association="SchoolModel.FK__Student__classNo__3A81B327">
+            <End Role="Class" EntitySet="Classes" />
+            <End Role="Student" EntitySet="Students" />
+          </AssociationSet>
+          <AssociationSet Name="ClassSubject" Association="SchoolModel.ClassSubject">
+            <End Role="Class" EntitySet="Classes" />
+            <End Role="Subject" EntitySet="Subjects" />
+          </AssociationSet>
+          <EntitySet Name="ErrorLogs" EntityType="SchoolModel.ErrorLog" />
+        </EntityContainer>
+        <EntityType Name="Class">
+          <Key>
+            <PropertyRef Name="ClassNo" />
+          </Key>
+          <Property Name="ClassNo" Type="Int32" Nullable="false" />
+          <Property Name="ClassTeacher" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Students" Relationship="SchoolModel.FK__Student__classNo__3A81B327" FromRole="Class" ToRole="Student" />
+          <NavigationProperty Name="Subjects" Relationship="SchoolModel.ClassSubject" FromRole="Class" ToRole="Subject" />
+        </EntityType>
+        <EntityType Name="Student">
+          <Key>
+            <PropertyRef Name="StudentId" />
+          </Key>
+          <Property Name="StudentId" Type="Int32" Nullable="false" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="PhoneNo" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="ClassNo" Type="Int32" Nullable="false" />
+          <Property Name="AdmissionYear" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Class" Relationship="SchoolModel.FK__Student__classNo__3A81B327" FromRole="Student" ToRole="Class" />
+        </EntityType>
+        <EntityType Name="Subject">
+          <Key>
+            <PropertyRef Name="SubjectId" />
+          </Key>
+          <Property Name="SubjectId" Type="Int32" Nullable="false" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Book" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="SubjectTeacher" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Classes" Relationship="SchoolModel.ClassSubject" FromRole="Subject" ToRole="Class" />
+        </EntityType>
+        <Association Name="FK__Student__classNo__3A81B327">
+          <End Type="SchoolModel.Class" Role="Class" Multiplicity="1" />
+          <End Type="SchoolModel.Student" Role="Student" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Class">
+              <PropertyRef Name="ClassNo" />
+            </Principal>
+            <Dependent Role="Student">
+              <PropertyRef Name="ClassNo" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="ClassSubject">
+          <End Type="SchoolModel.Class" Role="Class" Multiplicity="*" />
+          <End Type="SchoolModel.Subject" Role="Subject" Multiplicity="*" />
+        </Association>
+        <EntityType Name="ErrorLog">
+          <Key>
+            <PropertyRef Name="ErrorDate" />
+          </Key>
+          <Property Name="ErrorDate" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="ErrorMessage" Type="String" Nullable="false" MaxLength="255" FixedLength="true" Unicode="true" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="SchoolModelStoreContainer" CdmEntityContainer="SchoolEntities">
+          <EntitySetMapping Name="Classes">
+            <EntityTypeMapping TypeName="SchoolModel.Class">
+              <MappingFragment StoreEntitySet="Class">
+                <ScalarProperty Name="ClassTeacher" ColumnName="ClassTeacher" />
+                <ScalarProperty Name="ClassNo" ColumnName="ClassNo" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Students">
+            <EntityTypeMapping TypeName="SchoolModel.Student">
+              <MappingFragment StoreEntitySet="Student">
+                <ScalarProperty Name="AdmissionYear" ColumnName="AdmissionYear" />
+                <ScalarProperty Name="ClassNo" ColumnName="ClassNo" />
+                <ScalarProperty Name="PhoneNo" ColumnName="PhoneNo" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="StudentId" ColumnName="StudentId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Subjects">
+            <EntityTypeMapping TypeName="SchoolModel.Subject">
+              <MappingFragment StoreEntitySet="Subject">
+                <ScalarProperty Name="SubjectTeacher" ColumnName="SubjectTeacher" />
+                <ScalarProperty Name="Book" ColumnName="Book" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="SubjectId" ColumnName="SubjectId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <AssociationSetMapping Name="ClassSubject" TypeName="SchoolModel.ClassSubject" StoreEntitySet="ClassSubject">
+            <EndProperty Name="Subject">
+              <ScalarProperty Name="SubjectId" ColumnName="SubjectId" />
+            </EndProperty>
+            <EndProperty Name="Class">
+              <ScalarProperty Name="ClassNo" ColumnName="ClassNo" />
+            </EndProperty>
+          </AssociationSetMapping>
+          <EntitySetMapping Name="ErrorLogs">
+            <EntityTypeMapping TypeName="SchoolModel.ErrorLog">
+              <MappingFragment StoreEntitySet="ErrorLog">
+                <ScalarProperty Name="ErrorMessage" ColumnName="ErrorMessage" />
+                <ScalarProperty Name="ErrorDate" ColumnName="ErrorDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

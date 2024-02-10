@@ -1,0 +1,12 @@
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03.Model\bin\Debug\SchoolCRUD03.Model.dll
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03.Model\bin\Debug\SchoolCRUD03.Model.pdb
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03.Model\obj\Debug\SchoolCRUD03.Model.csproj.AssemblyReference.cache
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03.Model\obj\Debug\SchoolCRUD03.Model.csproj.CoreCompileInputs.cache
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03.Model\obj\Debug\SchoolCRUD03.Model.dll
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03.Model\obj\Debug\SchoolCRUD03.Model.pdb
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03.Model\bin\Debug\SchoolCRUD03.Model.dll
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03.Model\bin\Debug\SchoolCRUD03.Model.pdb
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03.Model\obj\Debug\SchoolCRUD03.Model.csproj.AssemblyReference.cache
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03.Model\obj\Debug\SchoolCRUD03.Model.csproj.CoreCompileInputs.cache
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03.Model\obj\Debug\SchoolCRUD03.Model.dll
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03.Model\obj\Debug\SchoolCRUD03.Model.pdb

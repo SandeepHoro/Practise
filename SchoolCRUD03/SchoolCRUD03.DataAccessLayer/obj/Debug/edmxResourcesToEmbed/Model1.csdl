@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SchoolModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="SchoolEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Classes" EntityType="SchoolModel.Class" />
+    <EntitySet Name="Students" EntityType="SchoolModel.Student" />
+    <EntitySet Name="Subjects" EntityType="SchoolModel.Subject" />
+    <AssociationSet Name="FK__Student__classNo__3A81B327" Association="SchoolModel.FK__Student__classNo__3A81B327">
+      <End Role="Class" EntitySet="Classes" />
+      <End Role="Student" EntitySet="Students" />
+    </AssociationSet>
+    <AssociationSet Name="ClassSubject" Association="SchoolModel.ClassSubject">
+      <End Role="Class" EntitySet="Classes" />
+      <End Role="Subject" EntitySet="Subjects" />
+    </AssociationSet>
+    <EntitySet Name="ErrorLogs" EntityType="SchoolModel.ErrorLog" />
+  </EntityContainer>
+  <EntityType Name="Class">
+    <Key>
+      <PropertyRef Name="ClassNo" />
+    </Key>
+    <Property Name="ClassNo" Type="Int32" Nullable="false" />
+    <Property Name="ClassTeacher" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Students" Relationship="SchoolModel.FK__Student__classNo__3A81B327" FromRole="Class" ToRole="Student" />
+    <NavigationProperty Name="Subjects" Relationship="SchoolModel.ClassSubject" FromRole="Class" ToRole="Subject" />
+  </EntityType>
+  <EntityType Name="Student">
+    <Key>
+      <PropertyRef Name="StudentId" />
+    </Key>
+    <Property Name="StudentId" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PhoneNo" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="ClassNo" Type="Int32" Nullable="false" />
+    <Property Name="AdmissionYear" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Class" Relationship="SchoolModel.FK__Student__classNo__3A81B327" FromRole="Student" ToRole="Class" />
+  </EntityType>
+  <EntityType Name="Subject">
+    <Key>
+      <PropertyRef Name="SubjectId" />
+    </Key>
+    <Property Name="SubjectId" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Book" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SubjectTeacher" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Classes" Relationship="SchoolModel.ClassSubject" FromRole="Subject" ToRole="Class" />
+  </EntityType>
+  <Association Name="FK__Student__classNo__3A81B327">
+    <End Type="SchoolModel.Class" Role="Class" Multiplicity="1" />
+    <End Type="SchoolModel.Student" Role="Student" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Class">
+        <PropertyRef Name="ClassNo" />
+      </Principal>
+      <Dependent Role="Student">
+        <PropertyRef Name="ClassNo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ClassSubject">
+    <End Type="SchoolModel.Class" Role="Class" Multiplicity="*" />
+    <End Type="SchoolModel.Subject" Role="Subject" Multiplicity="*" />
+  </Association>
+  <EntityType Name="ErrorLog">
+    <Key>
+      <PropertyRef Name="ErrorDate" />
+    </Key>
+    <Property Name="ErrorDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="ErrorMessage" Type="String" Nullable="false" MaxLength="255" FixedLength="true" Unicode="true" />
+  </EntityType>
+</Schema>

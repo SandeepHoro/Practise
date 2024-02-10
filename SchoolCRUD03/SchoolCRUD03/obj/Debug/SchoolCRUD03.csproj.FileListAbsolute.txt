@@ -1,0 +1,72 @@
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03\obj\Debug\SchoolCRUD03.csproj.AssemblyReference.cache
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03\obj\Debug\SchoolCRUD03.csproj.CoreCompileInputs.cache
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03\bin\Debug\SchoolCRUD03.exe.config
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03\bin\Debug\SchoolCRUD03.exe
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03\bin\Debug\SchoolCRUD03.pdb
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03\bin\Debug\SchoolCRUD03.BussinessLogicLayer.dll
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03\bin\Debug\SchoolCRUD03.Model.dll
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03\bin\Debug\SchoolCRUD03.Utils.dll
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03\bin\Debug\SchoolCRUD03.DataAccessLayer.dll
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03\bin\Debug\EntityFramework.dll
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03\bin\Debug\SchoolCRUD03.BussinessLogicLayer.pdb
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03\bin\Debug\SchoolCRUD03.Model.pdb
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03\bin\Debug\SchoolCRUD03.Utils.pdb
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03\bin\Debug\SchoolCRUD03.Utils.dll.config
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03\bin\Debug\SchoolCRUD03.DataAccessLayer.pdb
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03\bin\Debug\SchoolCRUD03.DataAccessLayer.dll.config
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03\bin\Debug\EntityFramework.xml
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03\obj\Debug\SchoolCRUD03.csproj.CopyComplete
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03\obj\Debug\SchoolCRUD03.exe
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03\obj\Debug\SchoolCRUD03.pdb
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03\bin\Debug\SchoolCRUD03.BussinessLogicLayer.dll.config
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03\bin\Debug\EPPlus.dll
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03\bin\Debug\EPPlus.Interfaces.dll
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03\bin\Debug\EPPlus.System.Drawing.dll
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03\bin\Debug\System.Buffers.dll
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03\bin\Debug\System.Memory.dll
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03\bin\Debug\EPPlus.xml
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03\bin\Debug\System.Buffers.xml
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03\bin\Debug\System.Memory.xml
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03\bin\Debug\SchoolCRUD03.exe.config
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03\bin\Debug\SchoolCRUD03.exe
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03\bin\Debug\SchoolCRUD03.pdb
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03\bin\Debug\EPPlus.dll
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03\bin\Debug\EPPlus.Interfaces.dll
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03\bin\Debug\EPPlus.System.Drawing.dll
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03\bin\Debug\SchoolCRUD03.BussinessLogicLayer.dll
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03\bin\Debug\SchoolCRUD03.Model.dll
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03\bin\Debug\SchoolCRUD03.Utils.dll
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03\bin\Debug\System.Buffers.dll
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03\bin\Debug\System.Memory.dll
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03\bin\Debug\SchoolCRUD03.DataAccessLayer.dll
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03\bin\Debug\EntityFramework.dll
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03\bin\Debug\SchoolCRUD03.BussinessLogicLayer.pdb
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03\bin\Debug\SchoolCRUD03.BussinessLogicLayer.dll.config
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03\bin\Debug\SchoolCRUD03.Model.pdb
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03\bin\Debug\SchoolCRUD03.Utils.pdb
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03\bin\Debug\SchoolCRUD03.Utils.dll.config
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03\bin\Debug\EPPlus.xml
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03\bin\Debug\System.Buffers.xml
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03\bin\Debug\System.Memory.xml
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03\bin\Debug\SchoolCRUD03.DataAccessLayer.pdb
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03\bin\Debug\SchoolCRUD03.DataAccessLayer.dll.config
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03\bin\Debug\EntityFramework.xml
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03\obj\Debug\SchoolCRUD03.csproj.AssemblyReference.cache
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03\obj\Debug\SchoolCRUD03.csproj.CoreCompileInputs.cache
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03\obj\Debug\SchoolCRUD03.csproj.CopyComplete
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03\obj\Debug\SchoolCRUD03.exe
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03\obj\Debug\SchoolCRUD03.pdb

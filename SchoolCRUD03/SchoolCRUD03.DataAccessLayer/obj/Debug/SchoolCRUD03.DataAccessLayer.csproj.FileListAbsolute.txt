@@ -1,0 +1,34 @@
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03.DataAccessLayer\obj\Debug\SchoolCRUD03.DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03.DataAccessLayer\obj\Debug\SchoolCRUD03.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03.DataAccessLayer\bin\Debug\SchoolCRUD03.DataAccessLayer.dll.config
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03.DataAccessLayer\bin\Debug\SchoolCRUD03.DataAccessLayer.dll
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03.DataAccessLayer\bin\Debug\SchoolCRUD03.DataAccessLayer.pdb
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03.DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03.DataAccessLayer\bin\Debug\SchoolCRUD03.Model.dll
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03.DataAccessLayer\bin\Debug\SchoolCRUD03.Utils.dll
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03.DataAccessLayer\bin\Debug\SchoolCRUD03.Model.pdb
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03.DataAccessLayer\bin\Debug\SchoolCRUD03.Utils.pdb
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03.DataAccessLayer\bin\Debug\SchoolCRUD03.Utils.dll.config
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03.DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03.DataAccessLayer\obj\Debug\SchoolCRUD03.DataAccessLayer.csproj.CopyComplete
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03.DataAccessLayer\obj\Debug\SchoolCRUD03.DataAccessLayer.dll
+C:\Users\sandeeph\source\repos\SchoolCRUD03\SchoolCRUD03.DataAccessLayer\obj\Debug\SchoolCRUD03.DataAccessLayer.pdb
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03.DataAccessLayer\bin\Debug\SchoolCRUD03.DataAccessLayer.dll.config
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03.DataAccessLayer\bin\Debug\SchoolCRUD03.DataAccessLayer.dll
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03.DataAccessLayer\bin\Debug\SchoolCRUD03.DataAccessLayer.pdb
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03.DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03.DataAccessLayer\bin\Debug\SchoolCRUD03.Model.dll
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03.DataAccessLayer\bin\Debug\SchoolCRUD03.Utils.dll
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03.DataAccessLayer\bin\Debug\SchoolCRUD03.Model.pdb
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03.DataAccessLayer\bin\Debug\SchoolCRUD03.Utils.pdb
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03.DataAccessLayer\bin\Debug\SchoolCRUD03.Utils.dll.config
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03.DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03.DataAccessLayer\obj\Debug\SchoolCRUD03.DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03.DataAccessLayer\obj\Debug\SchoolCRUD03.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03.DataAccessLayer\obj\Debug\SchoolCRUD03.DataAccessLayer.csproj.CopyComplete
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03.DataAccessLayer\obj\Debug\SchoolCRUD03.DataAccessLayer.dll
+C:\Users\Sandeep Horo\Desktop\New folder (3)\SchoolCRUD03\SchoolCRUD03.DataAccessLayer\obj\Debug\SchoolCRUD03.DataAccessLayer.pdb
